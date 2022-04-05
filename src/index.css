@@ -839,6 +839,9 @@ button.swiper-pagination-bullet {
 
 /*! tailwindcss v2.2.15 | MIT License | https://tailwindcss.com */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
