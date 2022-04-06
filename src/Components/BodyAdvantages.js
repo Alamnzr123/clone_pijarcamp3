@@ -85,7 +85,6 @@ const BodyAdvantages = () => {
             <div className="swiper swiper-initialized swiper-horizontal swiper-pointer-events">
               <div
                 className="swiper-wrapper"
-                style={{ transitionDuration: '500ms' }}
               >
                 <div
                   className="swiper-slide swiper-slide-duplicate"

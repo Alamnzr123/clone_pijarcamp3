@@ -19,7 +19,7 @@ function App() {
       <div className="flex flex-col min-h-screen">
         <Nav />
         <main className="pt-24 flex-1"> 
-        <div className="mx-auto pb-20 -mt-4">
+          <div className="mx-auto pb-20 -mt-4">
         <Header />
         <Body />
         <BodyAdvantages />

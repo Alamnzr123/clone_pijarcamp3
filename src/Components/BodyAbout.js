@@ -16,14 +16,13 @@ const BodyAbout = () => {
           </div>
           <img
             alt=""
-            style={{ marginLeft: '10px' }}
             className="absolute pt-16 mt-4 hidden md:flex"
             src={Oval}
           />
           <h3 className="md:text-4.5xl text-3xl text-left font-bold mb-8 mt-5 md:leading-5xl mx-3 md:mx-0">
             Program Intensif Bootcamp
           </h3>
-          <p style={{ textAlign: 'left' }}>
+          <p>
             Di bootcamp ini, kamu akan mengikuti program komprehensif dan
             pembelajaran yang intensif bersama mentor secara full-time dengan
             kurikulum lengkap. Waktu belajarnya adalah 5 hari kerja dalam satu

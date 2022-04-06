@@ -4,6 +4,7 @@ import imgright from "./../static/images/image-right.png";
 
 const Header = () => {
   return (
+    
     <div className="justify-center flex px-5 lg:px-0 md:mb-6 bg-black-100">
       <div className="flex flex-col-reverse md:grid grid-cols-12 lg:max-w-screen-xl z-2 gap-0 pb-16">
         <div className="md:col-span-3 col-span-12 hidden md:flex justify-center">
@@ -12,11 +13,11 @@ const Header = () => {
             className="max-w-1/2 mt-40 absolute"
             src={imgleft}
           />
-          <div style={{ marginLeft: '1020px' }}className=" text-center px-4 items-center flex flex-col z-2">
-            <h3 className="my-4 font-bold md:text-54px text-3.5xl pt-8 md:pt-28 pb-4 md:leading-60px leading-9">
-              Mulai Karir Teknologi 
-               <br className="mb-7" />   Bersama           
-              <span className="text-orange-900"> Pijar Camp</span>
+          <div className="md:col-span-6 col-span-12 text-center md:px-0 px-4 items-center flex flex-col z-2">
+          <h3 style={{ fontSize: '3.875rem' }} class="my-4 font-bold md:text-54px text-3.5xl pt-8 md:pt-28 pb-4 md:leading-60px leading-9">Mulai Karir 
+          <br class="md:hidden"/> Teknologi Bersama
+          <br class="md:hidden"/>
+            <span class="text-orange-900"> Pijar Camp</span>
               <div className="w-full flex md:justify-end justify-center md:pr-20">
                 <img
                   alt=""
@@ -29,8 +30,8 @@ const Header = () => {
               Ikuti program bootcamp intensif untuk meningkatkan kemampuan
               hingga sukses berkarir di bidang teknologi.
             </p>
-            <a style={{ marginRight: '500px' }} className="pb-3 md:pb-14">
-              <button style={{ marginLeft: '500px' }}
+            <a className="pb-3 md:pb-14">
+              <button
                 className="px-4 mb-7 h-12 hover:bg-blue-800 flex items-center justify-center rounded-lg h-10 md:h-12 text-white bg-primary hover:bg-blue-800"
                 type="button"
               >
@@ -62,7 +63,10 @@ const Header = () => {
         </div>
       </div>
     </div>
+
   );
 };
 
 export default Header;
+
+
